@@ -1,7 +1,7 @@
 def draw_horizontal_wall(length):
 	print("|", end = "")
 	for l in range(length):
-        	print("-", end = "")
+		print("-", end = "")
 	print("|")
 
 	
@@ -37,6 +37,3 @@ def draw_library(name, length, width):
     draw_horizontal_wall(length)
 
     return
-	   
-
-
